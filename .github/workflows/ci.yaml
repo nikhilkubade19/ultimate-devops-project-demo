@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     # Target the self-hosted runner with matching labels
-    runs-on: [self-hosted, linux, x64, custom]
+    runs-on: my-ubuntu
     
     steps:
       - name: Checkout code
