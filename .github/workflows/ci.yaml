@@ -12,7 +12,7 @@ jobs:
         runs-on: my-ubuntu
 
         steps:
-        - name: checkout code
+        - name: checkout code new
           uses: actions/checkout@v4
 
         - name: Setup Go 1.22
